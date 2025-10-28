@@ -1,0 +1,38 @@
+Busqueda binaria 
+
+✓Eficiente en lista ordenada
+
+✓Divisiones sucesivas para hallar el medio
+
+Pasos:
+
+1. Inicialización: Definición de izquierda y derecha 
+
+2. Bucle: mientras izquierda sea menor o igual a derecha
+   
+   Calcular el indice del medio
+
+   Compara el valor en medio con valor objetivo:
+
+    1. si es igual -> "se encontró, devuelve el índice"
+
+    2. si es menor -> "se ajusta a izquierda +1 (mitad derecha)"
+
+    3. si es mayor -> "se ajusta a derecha -1 (mitad izquierda)"
+
+3. finalización: si no lo encuentra, devuelve un valor -1
+
+Análisis del logaritmo:
+
+✓Eficiencia temporal: complejidad temporal de O(logn)
+
+✓Eficiencia Espacial: requiere O(1), será constante, no usará un tamaño adicional.
+
+
+Busqueda lineal
+
+Descripción: divide repetidamente la lista en dos descartando la existencia.
+
+Complejidad: O(n), lo cual es tiempo constante.
+
+Uso: ideal en listas desordenadas o listas pequeñas donde la simplicidad es más importante que la velocidad.
