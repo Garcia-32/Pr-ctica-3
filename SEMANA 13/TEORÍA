@@ -1,0 +1,12 @@
+Recursividad
+
+Recursividad es una técnica en la programación en la cual una función se llama a sí misma para resolver un problema. Los
+problemas se descomponen en subproblemas más pequeños y manejables que son esencialmente del mismo tipo que el
+problema original. La recursividad es útil para resolver problemas que tienen una estructura repetitiva o que pueden
+descomponerse en subproblemas similares.
+Componentes de un Método Recursivo
+
+Caso Base: Es la condición que detiene la recursión, evitando que la función se llame a sí misma indefinidamente. Sin un caso
+base, la recursión continuaría indefinidamente, resultando en un desbordamiento de pila.
+Llamada Recursiva: Es la parte de la función donde se llama a sí misma con un conjunto reducido del problema original,
+avanzando así hacia el caso base.
